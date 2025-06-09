@@ -1,13 +1,32 @@
-# CapstoneProject-RohlikSalesForecasting
+# 📦 Sales Forecasting – E-Grocery Industry
 
-Important, before commiting, make sure that only the notebook file is committed. ALL the other files in your folder must NOT be committed, including the venv.
+This project aims to build a robust forecasting model to predict daily sales for an e-grocery warehouse, helping to optimize inventory planning, reduce waste, and improve operational efficiency. It was developed as part of the Data Analytics for Business program at St. Clair College (Winter 2025).
 
-Follow the steps below in vscode to add a folder to the .gitignore using UI
+---
 
-1. Click Source Control on left pane
-2. Click on three dots at right top of Source Control tab
-3. Select View & Sort>View as Tree
-4. Right click on the folder you want to add to .gitignore
-5. Select Add to .gitignore
-   
-You are done!
+## 🧠 Project Objectives
+
+- Predict daily item sales over a 14-day horizon
+- Integrate data from multiple sources (inventory, weather, holiday calendar)
+- Improve demand forecast accuracy to inform supply chain and production planning
+
+---
+
+## 🗃️ Dataset Overview
+
+The project combines several real-world data sources including:
+
+- **Sales Data**: Historical sales by product and date
+- **Inventory Levels**: Available quantities per item
+- **Weather Data**: External conditions such as temperature and rainfall
+- **Calendar Events**: Holidays, weekdays, and weekends
+
+---
+
+## 🔧 Tools & Technologies
+
+- **Python**: Main scripting language
+- **Pandas & NumPy**: Data wrangling and feature engineering
+- **Scikit-learn**: Machine learning models and evaluation
+- **Matplotlib & Seaborn**: Data visualization and EDA
+
